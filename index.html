@@ -8,21 +8,27 @@
   <body>
     <script href="scripts.js"></script>
 
-    <form>
-      <div class="label">
-        Enter one side:
+    <form class="gather-stuff">
+      <div class=gather-small>
+        <div class="label">
+          Enter one side:
+        </div>
+        <input class="input" type="text" id="sideOne" name="number"/>
       </div>
-      <input class="input" type="text" id="sideOne" name="number"/>
 
-      <div class="label">
-        Enter a second side:
+      <div class=gather-small>
+        <div class="label">
+          Enter a second side:
+        </div>
+        <input class="input" type="text" id="sideTwo" name="number"/>
       </div>
-      <input class="input" type="text" id="sideTwo" name="number"/>
 
-      <div class="label">
-        Enter a third side:
+      <div class=gather-small>
+        <div class="label">
+          Enter a third side:
+        </div>
+        <input class="input" type="text" id="sideThree" name="number"/>
       </div>
-      <input class="input" type="text" id="sideThree" name="number"/>
 
       <input type="button" value="Check" onclick="triangleTracker()"/>
     </form>

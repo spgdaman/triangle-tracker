@@ -1,3 +1,11 @@
 html, body{
   margin: 0;
 }
+
+.gather-stuff{
+  text-align: center;
+}
+
+.gather-small{
+  display: inline;
+}
