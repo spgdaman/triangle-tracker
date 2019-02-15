@@ -18,6 +18,8 @@ Clone or download the project using the link in the description.
 
 The web app takes input from the user, which are numbers, then displays an alert with the sides and the type of triangle it is on clicking on the check button.
 
+The first condition checks if the sum of any two sides of the triangle is equal to or less than the third remaining side.
+
 ## Technologies used
 
 HTML, CSS and JavaScript.
