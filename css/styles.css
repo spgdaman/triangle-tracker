@@ -2,16 +2,26 @@ html, body{
   margin: 0;
 }
 
+body{
+  font-family: sans-serif;
+}
+
+.heading{
+  text-align:center;
+}
+
 .gather-stuff{
   text-align: center;
 }
 
 .label, .input{
+  margin-top: 8px;
   float: left;
   clear: both;
 }
 
 .submit{
+  margin-top: 15px;
   float: left;
   clear: both;
 }
