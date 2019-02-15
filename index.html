@@ -8,6 +8,7 @@
   </head>
   <body>
     <script href="js/scripts.js" type="text/javascript"></script>
+
     <script>
 
     function triangleTracker(){
@@ -23,7 +24,7 @@
       else if((sideOne === sideTwo) && (sideOne === sideThree) && (sideTwo === sideThree)){
         alert("The sides you gave, " + sides[0] +" " + sides[1] + " " + sides[2] + ", make up an equilateral triangle");
       }
-      else if((sideOne === sideThree) && (sideTwo !=sideOne) || (sideOne === sideTwo) && (sideThree != sideOne) || (sideTwo === sideThree) && (side2 != sideOne)){
+      else if((sideOne === sideThree) && (sideTwo !== sideOne) || (sideOne === sideTwo) && (sideThree !== sideOne) || (sideTwo === sideThree) && (sideTwo !== sideOne)){
         alert("The sides you gave, " + sides[0] +" " + sides[1] + " " + sides[2] + ", make up an isoceles triangle");
       }
       else{
@@ -64,24 +65,25 @@
           <div class="label">
             Enter one side:
           </div>
-          <input class="input" type="text" id="sideOne" name="number">
+          <input class="input" type="text" id="sideOne" name="number" required>
         </div>
 
         <div class=gather-small>
           <div class="label">
             Enter a second side:
           </div>
-          <input class="input" type="text" id="sideTwo" name="number">
+          <input class="input" type="text" id="sideTwo" name="number" required>
         </div>
 
         <div class=gather-small>
           <div class="label">
             Enter a third side:
           </div>
-          <input class="input" type="text" id="sideThree" name="number">
+          <input class="input" type="text" id="sideThree" name="number" required>
         </div>
 
-        <input class="submit gather-small" type="button" onclick="triangleTracker()">
+        <!-- Check button goes here -->
+        <input class="submit gather-small" type="button" value="Check" onclick="triangleTracker()">
       </form>
 
     </div>
