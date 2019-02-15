@@ -24,6 +24,8 @@ The second condition checks if all sides are be equal.
 
 The third condition checks if two sides are exactly equal.
 
+The fourth condition evaluates if none of the sides is equal, the sum of any two sides of the triangle must be greater than the third side.
+
 ## Technologies used
 
 HTML, CSS and JavaScript.
