@@ -44,3 +44,8 @@ body{
   margin-top: 15px;
   display: inline-block;
 }
+
+.footer{
+  text-align: center;
+  background-color: #51eaea;
+}
