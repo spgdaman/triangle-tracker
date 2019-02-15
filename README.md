@@ -22,6 +22,8 @@ The first condition checks if the sum of any two sides of the triangle is equal 
 
 The second condition checks if all sides are be equal.
 
+The third condition checks if two sides are exactly equal.
+
 ## Technologies used
 
 HTML, CSS and JavaScript.
