@@ -11,12 +11,13 @@ body{
 }
 
 .main{
+  text-align: center;
   float: left;
   clear: both;
 }
 
 .instructions{
-  border-right: solid 1px;
+  border-bottom: solid 1px;
   margin: 0;
   padding-right: 10px;
 }
