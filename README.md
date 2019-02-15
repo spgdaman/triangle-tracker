@@ -20,6 +20,8 @@ The web app takes input from the user, which are numbers, then displays an alert
 
 The first condition checks if the sum of any two sides of the triangle is equal to or less than the third remaining side.
 
+The second condition checks if all sides are be equal.
+
 ## Technologies used
 
 HTML, CSS and JavaScript.
