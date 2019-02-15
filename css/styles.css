@@ -1,4 +1,5 @@
 html, body{
+  height: 100%;
   margin: 0;
 }
 
@@ -28,6 +29,8 @@ body{
   margin: 0;
   padding-right: 10px;
   padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .gather-stuff{
@@ -48,4 +51,10 @@ body{
 .footer{
   text-align: center;
   background-color: #51eaea;
+  margin-bottom: -50px;
+}
+
+.copyright{
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
