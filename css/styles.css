@@ -3,25 +3,35 @@ html, body{
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Coiny', 'cursive';
 }
 
 .heading{
   text-align:center;
 }
 
+.main{
+  float: left;
+  clear: both;
+}
+
+.instructions{
+  border-right: solid 1px;
+  margin: 0;
+  padding-right: 10px;
+}
+
 .gather-stuff{
   text-align: center;
+  display: inline-block;
+
 }
 
 .label, .input{
   margin-top: 8px;
-  float: left;
-  clear: both;
 }
 
 .submit{
   margin-top: 15px;
-  float: left;
-  clear: both;
+  display: inline-block;
 }
